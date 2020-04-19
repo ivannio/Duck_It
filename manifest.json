@@ -1,0 +1,20 @@
+{ 
+    "manifest_version": 2,
+    "author": "Ivan Phelps",
+    "name": "Duck It",
+    "content_scripts": [{
+        "js": ["./src/duckIt.js"],
+        "matches": ["http://*/*", "https://*/*"]
+    }],
+    "description": "Replaces all photos with the same photo of a duck",
+    "icons": {
+        "48": "./duck-icon.png",
+        "96": "./duck-icon@2x.png"
+    },
+    "version": "0.1",
+    "web_accessible_resources" : [ 
+        "./images/duck-icon.png",
+        "./images/duck-icon@2x.png",
+        "./images/duck-large.png" 
+    ] 
+}
