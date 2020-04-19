@@ -3,7 +3,7 @@
     "author": "Ivan Phelps",
     "name": "Duck It",
     "content_scripts": [{
-        "js": ["./src/duckIt.js"],
+        "js": ["./src/javascripts/main.js"],
         "matches": ["http://*/*", "https://*/*"]
     }],
     "description": "Replaces all photos with the same photo of a duck",
@@ -13,8 +13,9 @@
     },
     "version": "0.1",
     "web_accessible_resources" : [ 
-        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-icon.png",
-        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-icon%402x.png",
-        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-large.png" 
+        "./src/images/duck-icon.png",
+        "./src/images/duck-icon@2x.png",
+        "./src/images/duck-large.png",
+        "./src/javascripts/main.js"
     ] 
 }
