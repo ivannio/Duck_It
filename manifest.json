@@ -8,8 +8,8 @@
     }],
     "description": "Replaces all photos with the same photo of a duck",
     "icons": {
-        "48": "./duck-icon.png",
-        "96": "./duck-icon@2x.png"
+        "48": "./src/images/duck-icon.png",
+        "96": "./src/images/duck-icon@2x.png"
     },
     "version": "0.1",
     "web_accessible_resources" : [ 
