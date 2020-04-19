@@ -13,8 +13,8 @@
     },
     "version": "0.1",
     "web_accessible_resources" : [ 
-        "./images/duck-icon.png",
-        "./images/duck-icon@2x.png",
-        "./images/duck-large.png" 
+        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-icon.png",
+        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-icon%402x.png",
+        "https://raw.githubusercontent.com/ivannio/Duck_It/master/src/images/duck-large.png" 
     ] 
 }
